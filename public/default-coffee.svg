@@ -1,0 +1,52 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#F7F3F0"/>
+  
+  <!-- Coffee Cup -->
+  <g transform="translate(100, 50)">
+    <!-- Cup Body -->
+    <path d="M40 80 L40 160 Q40 180 60 180 L140 180 Q160 180 160 160 L160 80 Z" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+    
+    <!-- Cup Handle -->
+    <path d="M160 100 Q180 100 180 120 Q180 140 160 140" fill="none" stroke="#654321" stroke-width="3"/>
+    
+    <!-- Coffee Surface -->
+    <ellipse cx="100" cy="80" rx="60" ry="8" fill="#3E2723"/>
+    
+    <!-- Steam -->
+    <g opacity="0.6">
+      <path d="M80 70 Q85 60 80 50 Q75 40 80 30" fill="none" stroke="#E0E0E0" stroke-width="2" stroke-linecap="round"/>
+      <path d="M100 70 Q105 60 100 50 Q95 40 100 30" fill="none" stroke="#E0E0E0" stroke-width="2" stroke-linecap="round"/>
+      <path d="M120 70 Q125 60 120 50 Q115 40 120 30" fill="none" stroke="#E0E0E0" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    
+    <!-- Coffee Beans -->
+    <g transform="translate(-20, 200)">
+      <ellipse cx="20" cy="20" rx="8" ry="12" fill="#8B4513" transform="rotate(15)"/>
+      <path d="M20 8 L20 32" stroke="#654321" stroke-width="1"/>
+      
+      <ellipse cx="45" cy="15" rx="8" ry="12" fill="#8B4513" transform="rotate(-20)"/>
+      <path d="M45 3 L45 27" stroke="#654321" stroke-width="1"/>
+      
+      <ellipse cx="70" cy="25" rx="8" ry="12" fill="#8B4513" transform="rotate(30)"/>
+      <path d="M70 13 L70 37" stroke="#654321" stroke-width="1"/>
+      
+      <ellipse cx="95" cy="18" rx="8" ry="12" fill="#8B4513" transform="rotate(-10)"/>
+      <path d="M95 6 L95 30" stroke="#654321" stroke-width="1"/>
+      
+      <ellipse cx="120" cy="22" rx="8" ry="12" fill="#8B4513" transform="rotate(25)"/>
+      <path d="M120 10 L120 34" stroke="#654321" stroke-width="1"/>
+      
+      <ellipse cx="145" cy="16" rx="8" ry="12" fill="#8B4513" transform="rotate(-15)"/>
+      <path d="M145 4 L145 28" stroke="#654321" stroke-width="1"/>
+      
+      <ellipse cx="170" cy="20" rx="8" ry="12" fill="#8B4513" transform="rotate(35)"/>
+      <path d="M170 8 L170 32" stroke="#654321" stroke-width="1"/>
+    </g>
+  </g>
+  
+  <!-- Text -->
+  <text x="200" y="280" text-anchor="middle" fill="#8B4513" font-family="Arial, sans-serif" font-size="16" font-weight="bold">
+    Roastory Coffee
+  </text>
+</svg> 
